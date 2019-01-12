@@ -29,12 +29,6 @@
         android:textColor="@color/colorPrimaryDark"/>
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/etADD"
-        android:layout_height="wrap_content"
-        android:hint="Enter your Address"
-        android:textColor="@color/colorPrimaryDark"/>
-    <EditText
-        android:layout_width="match_parent"
         android:id="@+id/etPhno"
         android:layout_height="wrap_content"
         android:hint="Enter Mob No."
@@ -46,12 +40,7 @@
         android:layout_height="wrap_content"
         android:hint="BLOOD GROUP"
         android:textColor="@color/colorPrimaryDark"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:id="@+id/etAnti"
-        android:layout_height="wrap_content"
-        android:hint="ANTIGEN"
-        android:textColor="@color/colorPrimaryDark"/>
+
     <Button
         android:layout_width="match_parent"
         android:gravity="center"

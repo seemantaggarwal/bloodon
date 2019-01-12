@@ -52,18 +52,18 @@
             android:text="Hospital" />
 
         <Button
+            android:id="@+id/btnRec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Receiver" />
+
+        <Button
             android:id="@+id/btnDon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Donor" />
-
-        <Button
-            android:id="@+id/btnRec"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Reciever" />
 
 
     </LinearLayout>

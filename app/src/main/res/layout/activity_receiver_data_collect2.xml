@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recieverDatas.ReceiverDataCollect"
+    android:orientation="vertical"
+    android:background="#ccffcc"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER YOUR DETAILS HERE"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="27dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etFN"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etLN"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etADD"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Address"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etPhno"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mob No."
+        android:inputType="phone"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etBG"
+        android:layout_height="wrap_content"
+        android:hint="BLOOD GROUP"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etAnti"
+        android:layout_height="wrap_content"
+        android:hint="ANTIGEN"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddData"
+        android:text="Save data"/>
+
+</LinearLayout>

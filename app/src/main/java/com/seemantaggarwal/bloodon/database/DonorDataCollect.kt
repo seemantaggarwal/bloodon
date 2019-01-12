@@ -26,10 +26,8 @@ class DonorDataCollect : AppCompatActivity() {
 
         btnAddData.setOnClickListener() {
             val newTask = DonorClass(etFN.text.toString(),
-                    etLN.text.toString(), etADD.text.toString(),
-                    etPhno.text.toString(), etBG.text.toString(),
-                    etAnti.text.toString()
-            )
+                    etLN.text.toString(),
+                    etPhno.text.toString(), etBG.text.toString())
             val id = DonorData.addDonor(db, newTask)
             refreshDonor()
         }

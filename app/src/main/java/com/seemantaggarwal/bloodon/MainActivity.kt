@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btnDon.setOnClickListener(){
+        btnRec.setOnClickListener(){
             actIntent= Intent(this, DonorLogin::class.java)
             startActivity(actIntent)
         }
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             actIntent= Intent(this, HospitalLogin::class.java)
             startActivity(actIntent)
         }
-        btnRec.setOnClickListener(){
+        btnDon.setOnClickListener(){
             actIntent= Intent(this, ReceiverLogin::class.java)
             startActivity(actIntent)
         }

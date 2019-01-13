@@ -23,9 +23,12 @@ class MainActivity : AppCompatActivity() {
             actIntent= Intent(this, ReceiverLogin::class.java)
             startActivity(actIntent)
         }
+
+        btnEve.setOnClickListener {
+            actIntent= Intent(this, CreateEventActivity::class.java)
+            startActivity(actIntent)
+        }
     }
-    //seemant aggarwal
-    //Hey it me
 
 
 }

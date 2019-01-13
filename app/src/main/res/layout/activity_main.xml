@@ -45,6 +45,12 @@
 
 
         <Button
+            android:id="@+id/btnEve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREATE EVENT" />
+
+        <Button
             android:id="@+id/btnHosp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,6 +70,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Donor" />
+
+        <Button
+            android:id="@+id/btnEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View Events" />
 
 
     </LinearLayout>
